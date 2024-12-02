@@ -1,0 +1,15 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Poetry-specific
+poetry.lock
+*.egg-info/
+dist/
+build/
